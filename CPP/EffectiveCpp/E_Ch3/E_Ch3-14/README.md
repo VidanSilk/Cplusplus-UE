@@ -110,7 +110,7 @@ public:
     2. 복사(copy) 시, 원래 포인터가 null이 되고 소유권이 새 객체로 넘어감.
     3. 겉보기에는 "얕은 복사"처럼 보여 버그 유발 가능.
     4. 컨테이너(std::vector, std::map 등)에 넣기 어려움.
-    5. 현대 C++의 이동语法(move semantics)와 맞지 않음.
+    5. 현대 C++의 이동 문법(move semantics)와 맞지 않음.
 
   - **unique_ptr**
     1. 소유권이 유일(Unique Ownership)
