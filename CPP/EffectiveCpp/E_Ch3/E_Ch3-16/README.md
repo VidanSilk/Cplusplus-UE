@@ -8,7 +8,7 @@ std::string* stringArray = new std::string[100];
 delete stringArray;
 ```
 
-보기엔 문제가 없어보이는 코드 같지만, 실제로는 **미정의 동작**을 할 것 이다. stringArray가 가리키는 100개의 string 객체들 중 99개는 정상적인 소멸과정을 거치지 못할 가능성이 크그 때문이다.
+보기엔 문제가 없어보이는 코드 같지만, 실제로는 **미정의 동작**을 할 것 이다. stringArray가 가리키는 100개의 string 객체들 중 99개는 정상적인 소멸과정을 거치지 못할 가능성이 크기 때문이다.
 
 **new와 delete** 
 
